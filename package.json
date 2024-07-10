@@ -1,10 +1,10 @@
 {
-  "name": "psx",
+  "name": "vr-challenge-shell",
   "private": true,
   "version": "1.0.1",
   "type": "module",
   "description": "web application with react and typescript.",
-  "author": "@cliqx",
+  "author": "@paulodev",
   "license": "UNLICENSED",
   "scripts": {
     "dev": "vite",

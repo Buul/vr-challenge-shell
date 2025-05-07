@@ -39,6 +39,7 @@ export const useRedirect = () => {
       redirecionamento,
       isContrateMais = false,
     }: RedirectParams) => {
+      
       if (!redirecionamento?.url && !redirecionamento?.urlContrateMais) {
         return handleRota(rota, isContrateMais);
       }

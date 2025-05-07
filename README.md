@@ -1,6 +1,6 @@
-# Vr Challenge
+# PGI Shell
 
-Webapp vr-challenle-shell is a web application with React.
+Webapp pgi-shell is a web application with React.
 
 ## Stack
 

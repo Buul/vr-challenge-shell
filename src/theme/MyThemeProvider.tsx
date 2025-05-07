@@ -1,11 +1,8 @@
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { ReactNode } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { GlobalStyle, ThemeDefault } from 'vr-challenge-ds';
 
-// import GlobalStyles from '../styles/globalStyles';
-
-// import theme from './ThemeDefault';
+import { ThemeDefault } from './ThemeDefault';
+import { GlobalStyle } from '.';
 
 type Props = {
   children: ReactNode;

@@ -1,12 +1,13 @@
 import styled, { keyframes } from 'styled-components';
-import { breakpoints } from 'vr-challenge-ds';
+
+import breakpoints from '@/utils/mediaQueries/media';
 
 export const LoaderWrapper = styled.div`
   display: flex;
   flex-direction: column;
   height: 82vh;
   border-radius: ${props => props.theme.radius.md};
-  background: ${props => props.theme.colors.white};
+  background: #ffffff;
   box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.08);
   padding: ${props => props.theme.spacing.md};
   width: 100%;
@@ -20,7 +21,7 @@ const placeHolderShimmer = keyframes`
   100% {
     background-position: 468px 0
   }
-  
+
 `;
 
 export const Placeholder = styled.div`
@@ -76,7 +77,7 @@ export const ResumeWrapper = styled.div`
   display: none;
   height: 82vh;
   border-radius: ${props => props.theme.radius.md};
-  background: ${props => props.theme.colors.white};
+  background: #ffffff;
   box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.08);
   padding: ${props => props.theme.spacing.md};
   padding: ${props => props.theme.spacing.base};

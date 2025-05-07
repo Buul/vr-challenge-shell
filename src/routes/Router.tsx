@@ -14,6 +14,14 @@ const Router: FC = () => (
         </MainTemplate>
       }
     />
+    <Route
+      path="/contratos"
+      element={
+        <MainTemplate>
+          <HomePresentation />
+        </MainTemplate>
+      }
+    />
   </Routes>
 );
 

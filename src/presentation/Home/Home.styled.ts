@@ -1,7 +1,11 @@
 import styled from 'styled-components';
-import { breakpoints } from 'vr-challenge-ds';
 
-export const Wrapper = styled.div``;
+import breakpoints from '@/utils/mediaQueries/media';
+
+export const Wrapper = styled.div`
+  height: 100%;
+  min-height: calc(100vh - 220px);
+`;
 
 export const SkeletonWrapper = styled.div`
   display: flex;

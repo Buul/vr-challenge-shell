@@ -1,0 +1,21 @@
+html,
+body,
+#root {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+:root {
+  /* React Tooltip */
+  --rt-opacity: 1 !important;
+  --rt-color-dark: #1b2126 !important;
+
+  --side-menu-closed-width: 85px;
+  --side-menu-open-width: 332px;
+  --header-height: 80px;
+}
+
+.react-tooltip {
+  border-radius: 4px !important;
+}

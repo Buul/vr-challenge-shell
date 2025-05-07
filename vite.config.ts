@@ -12,14 +12,7 @@ export default defineConfig({
     react(),
     federation({
       name: 'shell',
-      remotes: {
-        header:
-          'https://www.vr-challenge-header.paulodev.com.br/assets/remoteEntry.js',
-        footer:
-          'https://www.vr-challenge-footer.paulodev.com.br/assets/remoteEntry.js',
-        cards:
-          'https://www.vr-challenge-cards.paulodev.com.br/assets/remoteEntry.js',
-      },
+      remotes: {},
       shared: ['react', 'react-dom'],
     }),
   ],
